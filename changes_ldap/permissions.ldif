@@ -1,0 +1,13 @@
+dn: olcDatabase={1}mdb,cn=config
+changetype: modify
+delete: olcAccess
+olcAccess: to * by self read by dn="cn=admin,dc=example,dc=org" write by * none
+
+dn: olcDatabase={1}mdb,cn=config
+changetype: modify
+add: olcAccess
+olcAccess: to * by self read by dn="cn=admin,dc=example,dc=org" write by users read by * none
+modifying entry "olcDatabase={1}mdb,cn=config"
+
+
+

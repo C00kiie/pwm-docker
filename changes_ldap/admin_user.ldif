@@ -1,0 +1,60 @@
+dn: dc=example,dc=org
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: Example Inc.
+dc: example
+structuralObjectClass: organization
+entryUUID: 05f663ee-6605-103c-9324-ef0ed17192a7
+creatorsName: cn=admin,dc=example,dc=org
+createTimestamp: 20220512060343Z
+entryCSN: 20220512060343.854223Z#000000#000#000000
+modifiersName: cn=admin,dc=example,dc=org
+modifyTimestamp: 20220512060343Z
+
+dn: cn=admins,dc=example,dc=org
+cn: admins
+gidNumber: 500
+objectClass: posixGroup
+objectClass: top
+structuralObjectClass: posixGroup
+entryUUID: 5c72742e-660f-103c-92b5-e357cc20a9bb
+creatorsName: cn=admin,dc=example,dc=org
+createTimestamp: 20220512071743Z
+entryCSN: 20220512071743.918635Z#000000#000#000000
+modifiersName: cn=admin,dc=example,dc=org
+modifyTimestamp: 20220512071743Z
+
+dn: ou=people,dc=example,dc=org
+ou: people
+objectClass: organizationalUnit
+objectClass: top
+structuralObjectClass: organizationalUnit
+entryUUID: 6a58d16e-660f-103c-92b6-e357cc20a9bb
+creatorsName: cn=admin,dc=example,dc=org
+createTimestamp: 20220512071807Z
+entryCSN: 20220512071807.238758Z#000000#000#000000
+modifiersName: cn=admin,dc=example,dc=org
+modifyTimestamp: 20220512071807Z
+
+dn: cn=pwmproxyp,ou=people,dc=example,dc=org
+givenName: pwmproxy
+sn: p
+cn: pwmproxyp
+uid: pwmproxy
+userPassword:: e01ENX1JQ3k1WXF4WkIxdVdTd2NWTFNOTGNBPT0=
+uidNumber: 1000
+gidNumber: 500
+homeDirectory: /home/users/pwmproxy
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: top
+structuralObjectClass: inetOrgPerson
+entryUUID: bf7828fc-660f-103c-92b8-e357cc20a9bb
+creatorsName: cn=admin,dc=example,dc=org
+createTimestamp: 20220512072030Z
+entryCSN: 20220512072030.050498Z#000000#000#000000
+modifiersName: cn=admin,dc=example,dc=org
+modifyTimestamp: 20220512072030Z
+
+
